@@ -1,0 +1,22 @@
+{
+  "name": "imagegrabber",
+  "version": "1.0.0",
+  "description": "node script that utilizes picsum api and image-downloader npm module to save a specified number of images for use as placeholders.  image size and format are currently modified directly within the url.  anytime you need a placeholder img (or 500), just specify the destination and run in node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timothydadams/imageGrabber.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timothydadams/imageGrabber/issues"
+  },
+  "homepage": "https://github.com/timothydadams/imageGrabber#readme",
+  "dependencies": {
+    "image-downloader": "^3.5.0"
+  }
+}
