@@ -13,5 +13,6 @@ Run via console (and replace 5 with the actual number of images you want):
 From the root of this directory:
 ```sh
 npm install
+mkdir photos
 node -e 'require("./imageGrabber").init(5)'
 ```
